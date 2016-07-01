@@ -1,12 +1,12 @@
 
 ##README
 
-  ###Basic Help
+  ##Basic Help
   
     To advance through the game, left-click or press the space or enter keys. When at a menu,
     left-click to make a choice, or use the arrow keys to select a choice and enter to activate it.
 
-  ###Game Menu
+  ##Game Menu
 
     When playing a game, right-click or press the escape key to enter the game menu. The game menu
     gives the following choices:
@@ -18,7 +18,7 @@
     *Load Game
     *Allows you to load a game by clicking on a save slot. Clicking on "Auto" accesses the automatic save slots.
     
-  ###Preferences
+  ##Preferences
       Changes the game preferences (options/configuration):
         *Display - Switches between fullscreen and windowed mode.
         *Transitions- Controls the display of transitions between game screens
@@ -38,7 +38,7 @@
     *Help-Shows this help screen.
     *Quit - Exits the game; the game will be closed and ended.
 
-  ###Key and Mouse Bindings
+  ##Key and Mouse Bindings
     *Left-click/Enter -Advances through the game, activates menu choices, buttons, and sliders.
     *Space - Advances through the game, but does not activate choices.
     *Arrow Keys -Navigates between menu choices, buttons, and sliders.
@@ -59,7 +59,7 @@
     *Shift+C - Toggles clipboard-voicing mode, which copies text to the clipboard so it can be read by a screen reader.
    
 
-  ###Controller Support and Bindings
+  ##Controller Support and Bindings
 
     This game should automatically detect and use game controllers supported by
     SDL2. Other controllers can be configured using third-party configuration tools
@@ -86,6 +86,6 @@
 
   
 
-  ###Legal Notice
+  ##Legal Notice
     This program contains free software licensed under a number of licenses, including the GNU Lesser Public License. A
     complete list of software is available at http://www.renpy.org/doc/html/license.html">http://www.renpy.org/doc/html/license.html
