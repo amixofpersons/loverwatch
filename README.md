@@ -19,6 +19,7 @@
     *Allows you to load a game by clicking on a save slot. Clicking on "Auto" accesses the automatic save slots.
     
   ##Preferences
+
       Changes the game preferences (options/configuration):
         *Display - Switches between fullscreen and windowed mode.
         *Transitions- Controls the display of transitions between game screens
@@ -39,6 +40,7 @@
     *Quit - Exits the game; the game will be closed and ended.
 
   ##Key and Mouse Bindings
+
     *Left-click/Enter -Advances through the game, activates menu choices, buttons, and sliders.
     *Space - Advances through the game, but does not activate choices.
     *Arrow Keys -Navigates between menu choices, buttons, and sliders.
@@ -87,5 +89,6 @@
   
 
   ##Legal Notice
+  
     This program contains free software licensed under a number of licenses, including the GNU Lesser Public License. A
     complete list of software is available at http://www.renpy.org/doc/html/license.html
