@@ -4,8 +4,7 @@ image bgmain = "images/bg_main.jpg"
 image bg = "images/bgb.jpg"
 
 # sprites
-image soldVisorOn = "images/SoldierVisorOnb.png"
-image soldVisorOff = "images/SoldierVisorOffb.png"
+
 
 # others
 image blossoms1 = SnowBlossom("sakura/sakura.png",count=5,start=1)
