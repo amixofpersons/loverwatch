@@ -85,21 +85,25 @@ label talkToHim :
         soldier76 "{b}YOU'D BE BETTER OFF WITH SOMEONE ELSE ...{/b}"
         "{b}I DON\'T WANT ANYONE ELSE!{/b}":
             povSpeaks "{cps=30}{b}I DON'T WANT ANYONE ELSE, JACK!{/b}{/cps}"
+            $affinitySoldier76 +=2
             jump wantYou
 
         "{b}DO YOU REALLY THINK THAT?{/b}":
             povSpeaks "{cps=30}{b}DO... DO YOU REALLY THINK THAT?{/b}{/cps}"
+            $affinitySoldier76 +=1
             jump whatYouThink
             
 label wantYou:
     
 label whatYouThink:
     
-    
-    soldier76 "{b}...{/b}"
+    if affinitySoldier76 > 1 :
+        soldier76 "{cps=30}{b}PLEASE, TRY TO UNDERSTAND...{/b}{/cps}"
+    else :
+        soldier76 "{b}...{/b}"
+        
     hide soldVisorOn
     with slowDissolve
-
     povSpeaks "{cps=30}{b}WAIT !{/b}{/cps}"
     povSilent "{cps=30}{b}DID HE JUST...{/b}{/cps}"
     povSilent "{cps=30}{b}DID HE JUST...{fast} RUN AWAY?{/b}{/cps}"
