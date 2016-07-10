@@ -9,12 +9,17 @@ label start:
         comment "{cps=30}{i}WELCOME TO THIS SHORT LOVERWATCH DEMO!{/i}{/cps}"
         comment "{cps=30}{i}FIRST OF ALL, I'LL NEED YOU TO TELL ME YOUR NAME{/i}{/cps}"
         $ povName = renpy.input(_("{i}{size=15}PLEASE, ENTER YOUR NAME :{/size}{/i}"),length=15).upper() or _("ROBIN")
+        $ gender = renpy.input(_("{i}{size=15}WHAT ARE YOUR PRONOUNS?(EX. HE, SHE, THEY) :{/size}{/i}"), length=15).upper() or _("THEY")
         $ persistent.nameWasSaved = True
         $ persistent.savedName = povName
+        $ persistent.genderWasSaved = True
+        $ persistent.savedGender = gender
         comment "{cps=30}{i}OK [povName], TIME TO WAKE UP! {/i}{/cps}"
     else :
         $ povName = persistent.savedName
+        $ gender = persistent.savedGender
         comment "{cps=30}{i}OH! HELLO BACK [povName]! {/i}{/cps}"
+        comment "{cps=30}{i}You said your pronoun was [gender], right? Sorry if I get it wrong!{/i}{/cps}"
         comment "{cps=30}{i}I HOPE YOU'RE ENJOYING YOUR DEMO. {/i}{/cps}"
         
     pause 0.5
